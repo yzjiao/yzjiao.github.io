@@ -32,7 +32,7 @@
     Previously, I received my bachelor’s degree from <a href="https://www.ecnu.edu.cn">East China Normal University</a> majored in Computer Science in 2014.
   </p>
   <p>
-    My current research mainly focuses on <i>social networks analysis</i> and <i>graph neural networks</i>. 
+    My current research mainly focuses on <i>graph mining</i> and <i>graph representation learning</i>. 
     I want to explore the complex social network and identify useful information from it, 
     so I chose this topic as the starting point for my research at the beginning of my master’s degree. 
   </p>
@@ -53,6 +53,28 @@
   <p>
     <b>Yizhu Jiao</b>, Yun Xiong, Jiawei Zhang and Yangyong Zhu. 
     Collective Link Prediction Oriented Network Embedding with Hierarchical Graph Attention. <b>CIKM</b>. 2019.  
+    [<a href="Subg-con.pdf">paper</a>] [<a href="ICDM2020.pdf">slide</a>]
+  </p> 
+  <p>
+    <i>Abstract</i>: 
+       Graph representation learning has attracted lots of attention recently. 
+       Existing graph neural networks fed with the complete graph data are not scalable due to limited computation and memory costs. 
+       Thus, it remains a great challenge to capture rich information in large-scale graph data. 
+       Besides, these methods mainly focus on supervised learning and highly depend on node label information, which is expensive to obtain in the real world. 
+       As to unsupervised network embedding approaches, they overemphasize node proximity instead, whose learned representations can hardly be used in downstream application tasks directly. 
+       In recent years, emerging self-supervised learning provides a potential solution to address the aforementioned problems. 
+       However, existing self-supervised works also operate on the complete graph data and are biased to ﬁt either global or very local (1-hop neighborhood) graph structures in deﬁning the mutual information based loss terms.
+       
+       In this paper, a novel self-supervised representation learning method via Sub-graph Contrast, namely SUBG-CON, is proposed by utilizing the strong correlation between central nodes and their sampled subgraphs to capture regional structure information. 
+       Instead of learning on the complete input graph data, with a novel data augmentation strategy, SUBG-CON learns node representations through a contrastive loss deﬁned based on subgraphs sampled from the original graph instead. 
+       Compared with existing graph representation learning approaches, SUBG-CON has prominent performance advantages in weaker supervision requirements, model learning scalability, and parallelization. 
+       Extensive experiments verify both the effectiveness and the efﬁciency of our work compared with both classic and state-of-the-art graph representation learning approaches on multiple real-world large-scale benchmark datasets from different domains.
+  </p> 
+</li> 
+<li>
+  <p>
+    <b>Yizhu Jiao</b>, Yun Xiong, Jiawei Zhang, Yao Zhang, Tianqi Zhang and Yangyong Zhu. 
+    Sub-graph Contrast for Scalable Self-Supervised Graph Representation Learning. <b>ICDM</b>. 2020.  
     [<a href="lp1058-jiaoA.pdf">paper</a>] [<a href="CIKM2019.pdf">slide</a>]
   </p> 
   <p>
