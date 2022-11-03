@@ -64,6 +64,17 @@ a:hover {
 	border-bottom: 1px gray dotted;
 }
 
+
+a_black, a_black > tt {
+	color: 	#000000;
+	text-decoration: none;
+}
+
+a_black:hover {
+	border-bottom: 1px gray dotted;
+}
+
+
 #layout-menu a.current:link, #layout-menu a.current:visited {
 	color: #022b6d;
 	border-bottom: 1px gray solid;
