@@ -61,7 +61,7 @@ a, a > tt {
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+	border-bottom: 1px gray solid;
 }
 
 
