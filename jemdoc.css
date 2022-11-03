@@ -65,12 +65,12 @@ a:hover {
 }
 
 
-a_black, a_black > tt {
+a_b, a_b > tt {
 	color: 	#000000;
 	text-decoration: none;
 }
 
-a_black:hover {
+a_b:hover {
 	border-bottom: 1px gray dotted;
 }
 
